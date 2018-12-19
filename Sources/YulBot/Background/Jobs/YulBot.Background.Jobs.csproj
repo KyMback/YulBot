@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>7.3</LangVersion>
+        <AssemblyName>YulBot.Background.Jobs</AssemblyName>
+        <RootNamespace>YulBot.Background.Jobs</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Quartz" Version="3.0.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="quartz.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Services\Common\YulBot.Services.Common.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+{
+  "TelegramConfigurations": {
+    "TelegramApiToken": "${TELEGRAM_API_TOKEN}",
+    "Contexts": []
+  }
+}

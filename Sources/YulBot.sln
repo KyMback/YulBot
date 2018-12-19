@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.YulBot.Infrastructure", "1.YulBot.Infrastructure", "{D14FCDF4-CF7A-4619-98CF-E3EFB5FAEB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YulBot.Infrastructure.Common", "YulBot\Infrastructure\Common\YulBot.Infrastructure.Common.csproj", "{80879641-BEE6-4E71-99BF-B7035B0A848A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.YulBot.Services", "YulBot.Services", "{4CC91386-91B5-4058-B59B-1B4AE3F5F58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YulBot.Services", "YulBot\Services\Common\YulBot.Services.Common.csproj", "{4841A97C-2295-4D5E-9390-2FE41B23CE84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.YulBot.Background", "YulBot.Background", "{CB0C647F-FFF8-47F2-BE46-5BAA6E50F02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YulBot.Background.Jobs", "YulBot\Background\Jobs\YulBot.Background.Jobs.csproj", "{D8CCC10A-CFB9-45EA-96BD-F4504830D797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.YulBot.Interface", "YulBot.Interface", "{D26DC8DD-E495-4AC7-B56F-4080681A5462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YulBot.Interface", "YulBot\Interface\Cli\YulBot.Interface.Cli.csproj", "{947195B6-13E1-491D-B8B6-42DEF3C8CB3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8CCC10A-CFB9-45EA-96BD-F4504830D797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CCC10A-CFB9-45EA-96BD-F4504830D797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CCC10A-CFB9-45EA-96BD-F4504830D797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CCC10A-CFB9-45EA-96BD-F4504830D797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947195B6-13E1-491D-B8B6-42DEF3C8CB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947195B6-13E1-491D-B8B6-42DEF3C8CB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947195B6-13E1-491D-B8B6-42DEF3C8CB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947195B6-13E1-491D-B8B6-42DEF3C8CB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4841A97C-2295-4D5E-9390-2FE41B23CE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4841A97C-2295-4D5E-9390-2FE41B23CE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4841A97C-2295-4D5E-9390-2FE41B23CE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4841A97C-2295-4D5E-9390-2FE41B23CE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80879641-BEE6-4E71-99BF-B7035B0A848A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80879641-BEE6-4E71-99BF-B7035B0A848A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80879641-BEE6-4E71-99BF-B7035B0A848A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80879641-BEE6-4E71-99BF-B7035B0A848A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8CCC10A-CFB9-45EA-96BD-F4504830D797} = {CB0C647F-FFF8-47F2-BE46-5BAA6E50F02A}
+		{947195B6-13E1-491D-B8B6-42DEF3C8CB3C} = {D26DC8DD-E495-4AC7-B56F-4080681A5462}
+		{4841A97C-2295-4D5E-9390-2FE41B23CE84} = {4CC91386-91B5-4058-B59B-1B4AE3F5F58D}
+		{80879641-BEE6-4E71-99BF-B7035B0A848A} = {D14FCDF4-CF7A-4619-98CF-E3EFB5FAEB77}
+	EndGlobalSection
+EndGlobal
